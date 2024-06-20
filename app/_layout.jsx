@@ -1,10 +1,12 @@
 import { Stack } from "expo-router";
-import "../constants/styles.css";
+import "../global.css";
 
-export default function RootLayout() {
+const RootLayout = () => {
   return (
     <Stack>
       <Stack.Screen name="index" />
     </Stack>
   );
-}
+};
+
+export default RootLayout;
